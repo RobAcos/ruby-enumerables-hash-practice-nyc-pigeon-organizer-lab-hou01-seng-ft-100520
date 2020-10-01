@@ -1,5 +1,17 @@
 def nyc_pigeon_organizer(data)
-  pl={}
-  data[:gender].each do |spec_gender, ind_names|
-    names
+  names = {}
+  data.each do |attributes, categ|
+    categ.each do |specs, all_names|
+      all_names.each do |name|
+        if pigeon_list[name] == nil
+          pigeon_list[name] = {}
+        end
+        if pigeon_list[name][color_gender_lives] == nil
+          pigeon_list[name][color_gender_lives] = []
+        end
+        pigeon_list[name][color_gender_lives].push(stats.to_s)
+      end
+    end 
+  end
+  pigeon_list
 end
