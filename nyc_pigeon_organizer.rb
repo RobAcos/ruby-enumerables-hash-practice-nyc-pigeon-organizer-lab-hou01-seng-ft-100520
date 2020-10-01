@@ -1,3 +1,5 @@
 def nyc_pigeon_organizer(data)
-  # write your code here!
+  names={}
+  data[:gender].each do |spec_gender, ind_names|
+    names
 end
