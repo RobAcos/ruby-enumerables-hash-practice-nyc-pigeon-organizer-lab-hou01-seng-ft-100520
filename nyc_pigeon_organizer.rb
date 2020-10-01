@@ -1,5 +1,5 @@
 def nyc_pigeon_organizer(data)
-  names={}
+  pl={}
   data[:gender].each do |spec_gender, ind_names|
     names
 end
